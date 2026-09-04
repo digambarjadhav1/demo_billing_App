@@ -1,0 +1,8 @@
+# Streamlit Community Cloud deployment requirements
+# SQLite backend only (no pyodbc needed)
+
+streamlit>=1.35
+pandas>=2.0
+
+# Note: pyodbc and ODBC Driver are excluded for cloud deployment
+# The app will use SQLite (GROSS_BILLING_DB_TARGET=sqlite, which is the default)

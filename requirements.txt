@@ -1,0 +1,6 @@
+# Streamlit Community Cloud deployment - SQLite backend only
+streamlit>=1.35
+pandas>=2.0
+
+# Note: pyodbc removed for cloud deployment
+# The app uses SQLite by default (no ODBC driver needed)
